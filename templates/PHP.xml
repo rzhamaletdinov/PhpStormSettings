@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="dd" value="dump($END$);exit;" description="dump($a);exit;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="echo '&lt;pre&gt;';&#10;var_dump($END$);&#10;echo '&lt;/pre&gt;';&#10;exit;" description="var_dump($a);exit;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
