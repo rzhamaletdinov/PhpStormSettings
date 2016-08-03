@@ -105,6 +105,14 @@
           <option name="port" value="1781" />
         </fileTransfer>
       </webServer>
+      <webServer id="6eeba203-7c76-4b36-bb59-f9e7bf5bda4a" name="WTCSITE LIVE 2" url="http://195.154.133.82">
+        <fileTransfer host="195.154.133.82" port="22" rootFolder="/data/site/wtcsite/www" accessType="SFTP" password="dfcbdfdedfc2df9ddfc3dfcfdfc9dfc2df92dfebdfcfdfd8df9bdfd2dfcb" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
