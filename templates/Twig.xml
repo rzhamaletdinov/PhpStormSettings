@@ -1,0 +1,7 @@
+<templateSet group="Twig">
+  <template name="lc" value="{{ locale['$END$'] }}" description="locale" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
