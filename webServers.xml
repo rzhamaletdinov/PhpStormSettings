@@ -114,14 +114,14 @@
         </fileTransfer>
       </webServer>
       <webServer id="dec13493-9e2c-419d-ab4c-00ad71b5e72e" name="ruslan.tech" url="http://87.236.19.10">
-        <fileTransfer host="87.236.19.10" port="22" accessType="SFTP" password="dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6df9bdf9fdfc5dfcedfcf" username="akhalaya_ruslan">
+        <fileTransfer host="87.236.19.10" port="22" rootFolder="/home/a/akhalaya/ruslan.akhalaya.bget.ru/public_html" accessType="SFTP" password="dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6df9bdf9fdfc5dfcedfcf" username="akhalaya_ruslan">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="c2b2412a-5f6a-4fd7-b453-b7d99dcb6093" name="ruslan.tech" url="http://87.236.19.10">
+      <webServer id="c2b2412a-5f6a-4fd7-b453-b7d99dcb6093" name="ruslan.tech (1)" url="http://87.236.19.10">
         <fileTransfer host="87.236.19.10" port="22" rootFolder="/home/a/akhalaya/ruslan.akhalaya.bget.ru/public_html" accessType="SFTP" password="dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6df9bdf9fdfc5dfcedfcf" username="akhalaya_ruslan">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
