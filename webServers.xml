@@ -34,7 +34,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="848f3f30-eaf1-4f7e-b899-eb41714ca664" name="CAMELOTAPI DEV" url="http://195.154.200.167">
-        <fileTransfer host="195.154.200.167" port="1781" rootFolder="/data/api2" accessType="SFTP" password="dfecdfccdfdcdfccdfcddfccdf9fdf9fdfc0dfc2dfc8dfd2" username="root">
+        <fileTransfer host="195.154.200.167" port="1781" rootFolder="/data/api2" accessType="SFTP" password="dfc1dfd9dfdddfc2dfccdfc5dfcbdfc2dfeadf93df92df98dfea" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
