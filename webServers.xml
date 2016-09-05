@@ -82,7 +82,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="436abb7f-6c7a-4895-9f98-33ece4d3d2d1" name="WTCEXC API LIVE" url="http://195.154.200.167">
-        <fileTransfer host="195.154.200.167" port="1781" rootFolder="/data/exapi-live" accessType="SFTP" password="dfecdfccdfdcdfccdfcddfccdf9fdf9fdfc0dfc2dfc8dfd2" username="root">
+        <fileTransfer host="195.154.200.167" port="1781" rootFolder="/data/exapi-live" accessType="SFTP" password="dfc1dfd9dfdddfc2dfccdfc5dfcbdfc2dfeadf93df92df98dfea" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
