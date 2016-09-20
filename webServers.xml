@@ -161,6 +161,14 @@
           <option name="port" value="1781" />
         </fileTransfer>
       </webServer>
+      <webServer id="45094062-4873-414f-b463-d1a0dbb0d528" name="CAMELOT API LIVE" url="http://163.172.7.104">
+        <fileTransfer host="163.172.7.104" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/api" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
