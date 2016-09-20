@@ -145,6 +145,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="5e29b59c-76d7-49ce-8e3b-e23bc4ea1b66" name="camelot site live" url="http://62.210.127.14">
+        <fileTransfer host="62.210.127.14" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/www/camelotpay.com" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
