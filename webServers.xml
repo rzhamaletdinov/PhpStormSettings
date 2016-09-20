@@ -153,6 +153,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="862b953f-33a4-4695-8ee0-f346f4ef2fbb" name="CAMELOT API DEVV" url="http://195.154.200.167">
+        <fileTransfer host="195.154.200.167" port="1781" rootFolder="/data/api2" accessType="SFTP" password="dfc1dfd9dfdddfc2dfccdfc5dfcbdfc2dfeadf93df92df98dfea" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="1781" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
