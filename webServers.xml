@@ -106,7 +106,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="6eeba203-7c76-4b36-bb59-f9e7bf5bda4a" name="WTCSITE LIVE 2" url="http://195.154.133.82">
-        <fileTransfer host="195.154.133.82" port="22" rootFolder="/data/site/wtcsite/www" accessType="SFTP" password="df98dfeddfc7dfd9dfc7dffadfcfdfffdfe6dfd8" username="root">
+        <fileTransfer host="195.154.133.82" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/site/wtcsite/www" accessType="SFTP" username="root" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
