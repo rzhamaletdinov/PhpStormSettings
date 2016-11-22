@@ -138,7 +138,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="31f07def-35b3-4198-ba11-dd9236bab192" name="API DEV" url="http://5.135.213.147">
-        <fileTransfer host="5.135.213.147" port="22" rootFolder="/data/api" accessType="SFTP" password="dfd2dfd9dfdcdffcdfefdfcfdfe9dfeedf99dfc2" username="root">
+        <fileTransfer host="5.135.213.147" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
