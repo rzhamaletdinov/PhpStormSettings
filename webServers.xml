@@ -25,6 +25,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="b42ce3d9-0841-4c7b-93a2-5d1da79e4606" name="API DEV 2" url="http://5.135.213.147">
+        <fileTransfer host="5.135.213.147" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
