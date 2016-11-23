@@ -9,6 +9,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="de92a6ed-5e18-4dc0-b293-ef0d4d2f0dbd" name="LOTTO API LIVE" url="http://163.172.70.21">
+        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/lotto-api-live.ppk" rootFolder="/home/lottoapilive/web/lottoapi.cloudbank.social/public_html" accessType="SFTP" username="lottoapilive" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
