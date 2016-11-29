@@ -41,6 +41,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="05218980-068e-4f6a-9838-1af0d4a57a83" name="MERCHANT CLOUDBANK SOCIAL" url="http://195.154.200.167">
+        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/merchant.cloudbank.social" rootFolder="/home/cb-merchant/web/merchant.cloudbank.social/public_html" accessType="SFTP" username="cb-merchant" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
