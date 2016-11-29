@@ -33,6 +33,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="bcec957d-8042-45fb-a80a-23a34e5e488f" name="CLOUDBANK-SITE LIVE" url="http://195.154.200.167">
+        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/cloudbank.social" rootFolder="/home/cloudbank-client/web/cloudbank.social/public_html" accessType="SFTP" username="cloudbank-client" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
