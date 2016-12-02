@@ -49,6 +49,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="5c1c62f0-795d-4d10-bd79-f426410edef2" name="CARD API LIVE" url="http://195.154.133.27">
+        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
