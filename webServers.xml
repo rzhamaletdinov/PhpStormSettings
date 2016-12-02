@@ -57,6 +57,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="7385792f-d4a6-4388-9019-5c80836c41ad" name="CARD API LIVE BACKUP" url="http://195.154.133.27">
+        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/_api_new_backup" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
