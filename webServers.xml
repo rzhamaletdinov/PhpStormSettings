@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="81e4ebcd-fa2e-42df-bc1e-03d9fafece03" name="API DEV" url="http://5.135.213.147">
-        <fileTransfer host="5.135.213.147" port="5698" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+        <fileTransfer host="5.135.213.147" port="5698" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/data/api" accessType="SFTP" keyPair="true" username="root" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="de92a6ed-5e18-4dc0-b293-ef0d4d2f0dbd" name="LOTTO API LIVE" url="http://163.172.70.21">
-        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/lotto-api-live.ppk" rootFolder="/home/lottoapilive/web/lottoapi.cloudbank.social/public_html" accessType="SFTP" username="lottoapilive" keyPair="true">
+        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/lotto-api-live.ppk" rootFolder="/home/lottoapilive/web/lottoapi.cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="lottoapilive">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c957721b-a8ea-4205-ac31-e83ae39cb795" name="CLOUDBANC API LIVE" url="http://163.172.70.21">
-        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/bank-api-live.ppk" rootFolder="/home/bankapilive/web/bankapi.cloudbank.social/public_html" accessType="SFTP" username="bankapilive" keyPair="true">
+        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/bank-api-live.ppk" rootFolder="/home/bankapilive/web/bankapi.cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="bankapilive">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -26,7 +26,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="b42ce3d9-0841-4c7b-93a2-5d1da79e4606" name="API DEV 2" url="http://5.135.213.147">
-        <fileTransfer host="5.135.213.147" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+        <fileTransfer host="5.135.213.147" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" keyPair="true" username="root" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -34,7 +34,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="bcec957d-8042-45fb-a80a-23a34e5e488f" name="CLOUDBANK-SITE LIVE" url="http://195.154.200.167">
-        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/cloudbank.social" rootFolder="/home/cloudbank-client/web/cloudbank.social/public_html" accessType="SFTP" username="cloudbank-client" keyPair="true">
+        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/cloudbank.social" rootFolder="/home/cloudbank-client/web/cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="cloudbank-client">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -42,7 +42,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="05218980-068e-4f6a-9838-1af0d4a57a83" name="MERCHANT CLOUDBANK SOCIAL" url="http://195.154.200.167">
-        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/merchant.cloudbank.social" rootFolder="/home/cb-merchant/web/merchant.cloudbank.social/public_html" accessType="SFTP" username="cb-merchant" keyPair="true">
+        <fileTransfer host="195.154.200.167" port="5698" privateKey="$USER_HOME$/.ssh/merchant.cloudbank.social" rootFolder="/home/cb-merchant/web/merchant.cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="cb-merchant">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -50,7 +50,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5c1c62f0-795d-4d10-bd79-f426410edef2" name="CARD API LIVE" url="http://195.154.133.27">
-        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/api" accessType="SFTP" keyPair="true" username="root" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -58,7 +58,15 @@
         </fileTransfer>
       </webServer>
       <webServer id="7385792f-d4a6-4388-9019-5c80836c41ad" name="CARD API LIVE BACKUP" url="http://195.154.133.27">
-        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/_api_new_backup" accessType="SFTP" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6" username="root" keyPair="true">
+        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/personal" rootFolder="/data/_api_new_backup" accessType="SFTP" keyPair="true" username="root" passphrase="dfdfdfc3dfc7dfcbdfd8dfd9dfc2dfcbdfc6dfc6">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8de0fe17-7ed6-41bd-92ac-46b9ee82ee69" name="API DEV" url="http://5.135.213.147">
+        <fileTransfer host="5.135.213.147" port="5698" rootFolder="/data/api" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
