@@ -65,8 +65,16 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
-      <webServer id="8de0fe17-7ed6-41bd-92ac-46b9ee82ee69" name="API DEV" url="http://5.135.213.147">
+      <webServer id="8de0fe17-7ed6-41bd-92ac-46b9ee82ee69" name="API DEV (1)" url="http://5.135.213.147">
         <fileTransfer host="5.135.213.147" port="5698" rootFolder="/data/api" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f861fe4d-951d-4cc4-8001-bb8345faf7f4" name="CARD API LIVE (1)" url="http://195.154.133.27">
+        <fileTransfer host="195.154.133.27" port="5698" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/data/api" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
