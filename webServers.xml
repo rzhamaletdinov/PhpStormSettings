@@ -105,6 +105,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="1af97c9b-ba2e-4ac8-8174-59b5ea1385a3" name="SANSHOP24" url="http://82.146.61.72">
+        <fileTransfer host="82.146.61.72" port="22" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/var/www/sanshop/data" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
