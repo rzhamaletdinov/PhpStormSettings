@@ -97,7 +97,7 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
-      <webServer id="b4048b0f-966b-4824-870b-d7bf32a40df2" name="LOTTO API LIVE" url="http://163.172.70.21">
+      <webServer id="b4048b0f-966b-4824-870b-d7bf32a40df2" name="LOTTO API LIVE (2)" url="http://163.172.70.21">
         <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/lotto-api-live.ppk" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -107,6 +107,14 @@
       </webServer>
       <webServer id="1af97c9b-ba2e-4ac8-8174-59b5ea1385a3" name="SANSHOP24" url="http://82.146.61.72">
         <fileTransfer host="82.146.61.72" port="22" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/var/www/sanshop/data" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="78a15670-2d57-4ec7-bdf4-085a3f7edf2d" name="ruslan.tech" url="http://87.236.19.10">
+        <fileTransfer host="87.236.19.10" port="22" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/home/a/akhalaya/ruslan.akhalaya.bget.ru/public_html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
