@@ -121,6 +121,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="99245269-cb51-49f6-9471-9ac5380b0d8e" name="STAS TEST FORM" url="http://ssh-srv65519.hts.ru">
+        <fileTransfer host="ssh-srv65519.hts.ru" port="22" rootFolder="/home/srv65519/srv65519.ht-test.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
