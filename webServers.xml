@@ -129,6 +129,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="98d5bfd7-8f59-46ca-a6a5-da282d320f3f" name="CIFRON-PRE-LIVE" url="http://81.171.27.176">
+        <fileTransfer host="81.171.27.176" port="5698" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/data/api" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
