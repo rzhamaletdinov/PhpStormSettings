@@ -137,6 +137,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="8c66de78-f813-40f1-9ffd-d6c921eb2ba3" name="BAG LUSY" url="http://akhalaya.beget.tech">
+        <fileTransfer host="akhalaya.beget.tech" port="22" rootFolder="/home/a/akhalaya/bag.ruslan.tech/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
