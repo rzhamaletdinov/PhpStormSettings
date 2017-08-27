@@ -145,6 +145,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="5448ea11-de88-4a9a-8a17-674ba7611131" name="smart.ruslan.tech" url="http://87.236.19.10">
+        <fileTransfer host="87.236.19.10" port="22" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/home/a/akhalaya/smart.ruslan.tech/public_html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
