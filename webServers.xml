@@ -153,6 +153,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="7c24495a-4dbc-465e-85ba-8b65a940172e" name="BITQUE-LIVE" url="http://95.211.105.163">
+        <fileTransfer host="95.211.105.163" port="5698" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/home/api/data/api" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
