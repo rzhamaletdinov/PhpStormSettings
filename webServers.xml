@@ -161,6 +161,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="3e050ceb-0618-4e40-8e7d-a47b17d6a2db" name="webtransfer.com" url="http://82.192.82.6">
+        <fileTransfer host="82.192.82.6" port="5698" rootFolder="/home/webfin/public_html/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
