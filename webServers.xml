@@ -169,6 +169,14 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
+      <webServer id="e5231911-dd88-4ff9-87d1-6b308582e163" name="DEBITCOIN IO" url="http://62.212.86.167">
+        <fileTransfer host="62.212.86.167" port="5698" privateKey="$USER_HOME$/.ssh/ruslan" rootFolder="/home/bankapilive/web/api.debitcoin.io/public_html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5698" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
