@@ -17,8 +17,8 @@
           <option name="port" value="5698" />
         </fileTransfer>
       </webServer>
-      <webServer id="c957721b-a8ea-4205-ac31-e83ae39cb795" name="CLOUDBANC API LIVE" url="http://82.192.82.26">
-        <fileTransfer host="82.192.82.26" port="5698" privateKey="$USER_HOME$/.ssh/bank-api-live.ppk" rootFolder="/home/bankapilive/web/bankapi.cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="bankapilive">
+      <webServer id="c957721b-a8ea-4205-ac31-e83ae39cb795" name="CLOUDBANC API LIVE" url="http://163.172.70.21">
+        <fileTransfer host="163.172.70.21" port="5698" privateKey="$USER_HOME$/.ssh/bank-api-live.ppk" rootFolder="/home/bankapilive/web/bankapi.cloudbank.social/public_html" accessType="SFTP" keyPair="true" username="bankapilive">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
